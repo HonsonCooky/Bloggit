@@ -5,3 +5,10 @@ body {
     grid-template-areas: "hd hd" "main sidebar";
     background-color: lightslategray;
 }
+
+@media (max-width: 800px) {
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+}
