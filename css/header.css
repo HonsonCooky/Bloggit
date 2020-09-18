@@ -1,0 +1,22 @@
+body {
+    display: grid;
+    grid-template: 70px auto/5fr 1fr;
+    grid-gap: 1em;
+    grid-template-areas: "hd hd" "main sidebar";
+    background-color: lightslategray;
+}
+
+.header {
+    background-color: lightgreen;
+    grid-area: hd;
+}
+
+.main {
+    background-color: black;
+    grid-area: main;
+}
+
+.sidebar {
+    background-color: pink;
+    grid-area: sidebar;
+}
