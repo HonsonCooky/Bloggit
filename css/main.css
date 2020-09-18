@@ -1,5 +1,5 @@
 .main {
-    background-color: lightgreen;
+    background-color: #f1c7ff;
     grid-area: main;
     border-radius: 10px;
 }
@@ -15,7 +15,7 @@
 
 .main .example-post header {
     padding: 10px;
-    background-color: dimgrey;
+    background-color: #855d91;
     border-radius: 10px 10px 0px 0px;
     border-color: black;
     color: white;

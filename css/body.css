@@ -1,12 +1,12 @@
 body {
-    background-color: lightslategray;
+    background-color: grey;
     display: grid;
     place-items: center;
 }
 
 body .body {
     display: grid;
-    grid-template: auto auto/3fr 1fr;
+    grid-template: auto auto/2fr 1fr;
     grid-gap: 1em;
     grid-template-areas: "hd hd" "main sidebar";
     width: clamp(300px, 75%, 900px);
