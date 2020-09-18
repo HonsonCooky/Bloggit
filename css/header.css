@@ -1,22 +1,43 @@
-body {
-    display: grid;
-    grid-template: 70px auto/5fr 1fr;
-    grid-gap: 1em;
-    grid-template-areas: "hd hd" "main sidebar";
-    background-color: lightslategray;
-}
-
 .header {
     background-color: lightgreen;
     grid-area: hd;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    border-radius: 10px;
 }
 
-.main {
-    background-color: black;
-    grid-area: main;
+.header .header-title {
+    display: flex;
+    flex: 1;
 }
 
-.sidebar {
-    background-color: pink;
-    grid-area: sidebar;
+.header input {
+    flex: 5;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    background-color: mediumspringgreen;
+    border-radius: 10px;
+}
+
+.header button {
+    flex: 1;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    background-color: yellowgreen;
+    border-radius: 10px;
+    text-align: center;
+    width: auto;
+}
+
+.header .header-title h1 {
+    font-family: "Fira Sans Book", "serif";
+}
+
+.header .header-title img {
+    margin: 10px;
 }
