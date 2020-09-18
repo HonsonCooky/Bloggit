@@ -1,0 +1,59 @@
+.sidebar {
+    grid-area: sidebar;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.sidebar .sidebar-suggestion {
+    margin: 0 0 10px 0;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+}
+
+.sidebar .sidebar-suggestion header {
+    padding: 10px;
+    background-color: dimgrey;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    font-family: "Fira Sans Book", "serif";
+}
+
+.sidebar .sidebar-suggestion p {
+    margin: 0;
+    padding: 10px;
+}
+
+.sidebar .sidebar-suggestion .suggestion-title {
+    padding: 10px 10px 0 10px;
+    font-size: large;
+}
+
+.sidebar .sidebar-suggestion .tags {
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar .sidebar-suggestion .tags .suggestion-tag {
+    margin: 2px;
+    padding: 10px;
+    width: fit-content;
+    text-align: center;
+    align-self: center;
+    background-color: lightgray;
+    border-radius: 10px 10px 10px 10px;
+
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+}
+
