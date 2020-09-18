@@ -1,0 +1,36 @@
+.main {
+    background-color: lightgreen;
+    grid-area: main;
+    border-radius: 10px;
+}
+
+.main .example-post {
+    margin: 10px;
+    background-color: white;
+    border-radius: 10px;
+    border-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.main .example-post header {
+    padding: 10px;
+    background-color: dimgrey;
+    border-radius: 10px 10px 0px 0px;
+    border-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    font-family: "Fira Sans Book", "serif";
+}
+
+.main .example-post .feeling {
+    padding: 10px 0px 10px 10px;
+    border-color: black;
+    color: darkgreen;
+}
+
+.main .example-post .blog {
+    padding: 0px 10px 10px 10px;
+    border-color: black;
+}

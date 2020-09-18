@@ -1,0 +1,7 @@
+body {
+    display: grid;
+    grid-template: auto auto/3fr 1fr;
+    grid-gap: 1em;
+    grid-template-areas: "hd hd" "main sidebar";
+    background-color: lightslategray;
+}
