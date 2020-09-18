@@ -40,7 +40,8 @@
     height: auto;
     margin: auto;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .sidebar .sidebar-suggestion .tags .suggestion-tag {
