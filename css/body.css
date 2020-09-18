@@ -9,7 +9,7 @@ body .body {
     grid-template: auto auto/3fr 1fr;
     grid-gap: 1em;
     grid-template-areas: "hd hd" "main sidebar";
-    width: clamp(400px, 75%, 900px);
+    width: clamp(300px, 75%, 900px);
 }
 
 @media (max-width: 800px) {
